@@ -1,0 +1,16 @@
+{
+  "name": "mod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fis-parser-babel-5.x": "^1.4.0",
+    "fis3-hook-commonjs": "^0.1.25",
+    "fis3-postpackager-loader": "^2.0.5"
+  }
+}
