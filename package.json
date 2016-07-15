@@ -4,10 +4,14 @@
   "description": "",
   "main": "fis-conf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "comp": "fis3 release -d ./dist -wL",
+    "open": "fis3 server open",
+    "start":"fis3 server start --root ./dist ",
+    "clean":"fis3 server clean ",
+    "stop": "fis3 server stop "
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fis-parser-babel-5.x": "^1.4.0",
     "fis3-hook-commonjs": "^0.1.25",
